@@ -1,13 +1,11 @@
-import * as codec from '@scola/codec';
+import * as doc from '@scola/doc';
 import * as dom from '@scola/dom';
 import * as http from '@scola/http';
-import * as mysql from '@scola/mysql';
 import * as worker from '@scola/worker';
 
 export {
-  codec,
+  doc,
   dom,
   http,
-  mysql,
   worker
 };
