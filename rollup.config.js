@@ -7,8 +7,6 @@ import ignore from 'rollup-plugin-ignore';
 import json from 'rollup-plugin-json';
 import resolve from 'rollup-plugin-node-resolve';
 
-const input = './index.js';
-
 const external = []
   .concat([
     'fs-extra',
@@ -30,7 +28,35 @@ const external = []
     'parse5',
     'shortid',
     'tls'
+  ]).concat([
+    'node-cron'
   ]);
+
+const globals = Object.assign({
+  'fs-extra': 'fsExtra',
+  'marked': 'marked',
+  'messagebird': 'messagebird',
+  'mysql': 'mysql',
+  'nodemailer': 'mysql'
+}, {
+  'postal-codes-js': 'postalCodesJs',
+  'process': 'process'
+}, {
+  'bcrypt': 'bcrypt',
+  'busboy': 'busboy',
+  'fs': 'fs',
+  'fs-extra': 'fsExtra',
+  'http': 'http',
+  'msgpack-lite': 'msgpackLite',
+  'net': 'net',
+  'parse5': 'parse5',
+  'shortid': 'shortid',
+  'tls': 'tls'
+}, {
+  'node-cron': 'nodeCron'
+});
+
+const input = './index.js';
 
 const plugins = [
   resolve(),
@@ -59,6 +85,7 @@ export default [{
     extend: true,
     file: 'dist/scola.umd.js',
     format: 'umd',
+    globals,
     name: 'scola'
   },
   plugins
@@ -67,7 +94,8 @@ export default [{
   external,
   output: {
     file: 'dist/scola.cjs.js',
-    format: 'cjs'
+    format: 'cjs',
+    globals
   },
   plugins: [
     ignore([
