@@ -1,87 +1,81 @@
-import { writeFileSync } from 'fs';
-import buble from 'rollup-plugin-buble';
-import builtins from 'rollup-plugin-node-builtins';
-import css from 'rollup-plugin-css-only';
-import commonjs from 'rollup-plugin-commonjs';
-import ignore from 'rollup-plugin-ignore';
-import json from 'rollup-plugin-json';
-import resolve from 'rollup-plugin-node-resolve';
+import { rollup } from '@scola/worker'
+import ignore from 'rollup-plugin-ignore'
+import { name, version } from './package.json'
 
-const external = []
-  .concat([
-    'fs-extra',
-    'marked',
-    'messagebird',
-    'mysql',
-    'nodemailer'
-  ]).concat([
-    'postal-codes-js',
-    'process'
-  ]).concat([
-    'bcrypt',
-    'busboy',
-    'fs',
-    'fs-extra',
-    'http',
-    'msgpack-lite',
-    'net',
-    'parse5',
-    'shortid',
-    'tls'
-  ]).concat([
-    'node-cron'
-  ]);
+const {
+  banner,
+  globals,
+  external,
+  plugins
+} = rollup
 
-const globals = Object.assign({
+external.splice(0, 0, ...[
+  'messagebird',
+  'mysql',
+  'nodemailer',
+  'pg',
+  'pg-query-stream',
+  'sqlstring'
+])
+
+Object.assign(globals, {
+  messagebird: 'messagebird',
+  mysql: 'mysql',
+  nodemailer: 'nodemailer',
+  pg: 'pg',
+  'pg-query-stream': 'pgQueryStream',
+  sqlstring: 'sqlstring'
+})
+
+external.splice(0, 0, ...[
+  'postal-codes-js'
+])
+
+Object.assign(globals, {
+  'postal-codes-js': 'postalCodesJs'
+})
+
+external.splice(0, 0, ...[
+  'bcrypt',
+  'busboy',
+  'fs-extra',
+  'http',
+  'msgpack-lite',
+  'net',
+  'parse5',
+  'shortid',
+  'tls'
+])
+
+Object.assign(globals, {
+  bcrypt: 'bcrypt',
+  busboy: 'busboy',
   'fs-extra': 'fsExtra',
-  'marked': 'marked',
-  'messagebird': 'messagebird',
-  'mysql': 'mysql',
-  'nodemailer': 'mysql'
-}, {
-  'postal-codes-js': 'postalCodesJs',
-  'process': 'process'
-}, {
-  'bcrypt': 'bcrypt',
-  'busboy': 'busboy',
-  'fs': 'fs',
-  'fs-extra': 'fsExtra',
-  'http': 'http',
+  http: 'http',
   'msgpack-lite': 'msgpackLite',
-  'net': 'net',
-  'parse5': 'parse5',
-  'shortid': 'shortid',
-  'tls': 'tls'
-}, {
+  net: 'net',
+  parse5: 'parse5',
+  shortid: 'shortid',
+  tls: 'tls'
+})
+
+external.splice(0, 0, ...[
+  'fs-extra',
+  'node-cron'
+])
+
+Object.assign(globals, {
+  'fs-extra': 'fsExtra',
   'node-cron': 'nodeCron'
-});
+})
 
-const input = './index.js';
-
-const plugins = [
-  resolve(),
-  commonjs(),
-  builtins(),
-  css({
-    include: [new RegExp('.css')],
-    output: (styles) => {
-      writeFileSync('dist/scola.css', styles.replace(
-        /\.\.\//g, 'https://unpkg.com/ionicons@4.5.6/dist/'
-      ));
-    }
-  }),
-  json(),
-  buble({
-    transforms: {
-      dangerousForOf: true
-    }
-  })
-];
+const input = './index.js'
 
 export default [{
   input,
   external,
   output: {
+    banner: banner(name, version),
     extend: true,
     file: 'dist/scola.umd.js',
     format: 'umd',
@@ -93,18 +87,16 @@ export default [{
   input,
   external,
   output: {
+    banner: banner(name, version),
     file: 'dist/scola.cjs.js',
     format: 'cjs',
     globals
   },
   plugins: [
     ignore([
-      'fastclick',
       'dom-shims',
-      'es5-shim',
-      'es6-shim',
-      'es6-symbol/implement'
+      'fastclick'
     ]),
     ...plugins
   ]
-}];
+}]
