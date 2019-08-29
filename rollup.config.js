@@ -1,13 +1,16 @@
-import { rollup } from '@scola/worker'
 import ignore from 'rollup-plugin-ignore'
-import { name, version } from './package.json'
+
+import {
+  name,
+  version
+} from './package.json'
 
 const {
   banner,
-  globals,
   external,
+  globals,
   plugins
-} = rollup
+} = require('@scola/worker/rollup')
 
 external.splice(0, 0, ...[
   'messagebird',

@@ -12,16 +12,16 @@
     "dist/"
   ],
   "scripts": {
-    "prepublishOnly": "rm -rf dist/ && rollup -c"
+    "preversion": "rm -rf dist/ && rollup -c"
   },
   "devDependencies": {
-    "rollup": "^1.20.2",
+    "rollup": "^1.20.3",
     "rollup-plugin-ignore": "^1.0.5"
   },
   "dependencies": {
-    "@scola/doc": "^1.0.2",
-    "@scola/dom": "^1.0.2",
-    "@scola/http": "^6.0.0",
-    "@scola/worker": "^3.0.3"
+    "@scola/doc": "^1.0.4",
+    "@scola/dom": "^1.0.3",
+    "@scola/http": "^6.0.2",
+    "@scola/worker": "^3.2.0"
   }
 }
