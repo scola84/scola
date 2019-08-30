@@ -19,9 +19,9 @@
     "rollup-plugin-ignore": "^1.0.5"
   },
   "dependencies": {
-    "@scola/doc": "^1.0.4",
-    "@scola/dom": "^1.0.3",
-    "@scola/http": "^6.0.2",
-    "@scola/worker": "^3.2.0"
+    "@scola/doc": "^1.0.6",
+    "@scola/dom": "^1.0.5",
+    "@scola/http": "^6.0.4",
+    "@scola/worker": "^3.2.3"
   }
 }
