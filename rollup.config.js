@@ -1,38 +1,14 @@
-import ignore from 'rollup-plugin-ignore'
+const plugins = require('@scola/worker/rollup.plugins')
+const ignore = require('rollup-plugin-ignore')
 
-const {
-  external,
-  globals,
-  plugins
-} = require('@scola/worker/rollup')
-
-external.splice(0, 0, ...[
+const external = [
   'messagebird',
   'mysql',
   'nodemailer',
   'pg',
   'pg-query-stream',
-  'sqlstring'
-])
-
-Object.assign(globals, {
-  messagebird: 'messagebird',
-  mysql: 'mysql',
-  nodemailer: 'nodemailer',
-  pg: 'pg',
-  'pg-query-stream': 'pgQueryStream',
-  sqlstring: 'sqlstring'
-})
-
-external.splice(0, 0, ...[
-  'postal-codes-js'
-])
-
-Object.assign(globals, {
-  'postal-codes-js': 'postalCodesJs'
-})
-
-external.splice(0, 0, ...[
+  'sqlstring',
+  'postal-codes-js',
   'bcrypt',
   'busboy',
   'fs-extra',
@@ -41,10 +17,19 @@ external.splice(0, 0, ...[
   'net',
   'parse5',
   'shortid',
-  'tls'
-])
+  'tls',
+  'fs-extra',
+  'node-cron'
+]
 
-Object.assign(globals, {
+const globals = {
+  messagebird: 'messagebird',
+  mysql: 'mysql',
+  nodemailer: 'nodemailer',
+  pg: 'pg',
+  'pg-query-stream': 'pgQueryStream',
+  sqlstring: 'sqlstring',
+  'postal-codes-js': 'postalCodesJs',
   bcrypt: 'bcrypt',
   busboy: 'busboy',
   'fs-extra': 'fsExtra',
@@ -53,18 +38,9 @@ Object.assign(globals, {
   net: 'net',
   parse5: 'parse5',
   shortid: 'shortid',
-  tls: 'tls'
-})
-
-external.splice(0, 0, ...[
-  'fs-extra',
-  'node-cron'
-])
-
-Object.assign(globals, {
-  'fs-extra': 'fsExtra',
+  tls: 'tls',
   'node-cron': 'nodeCron'
-})
+}
 
 const input = './index.js'
 
