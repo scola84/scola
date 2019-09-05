@@ -1,12 +1,6 @@
 import ignore from 'rollup-plugin-ignore'
 
-import {
-  name,
-  version
-} from './package.json'
-
 const {
-  banner,
   external,
   globals,
   plugins
@@ -78,7 +72,6 @@ export default [{
   input,
   external,
   output: {
-    banner: banner(name, version),
     extend: true,
     file: 'dist/scola.umd.js',
     format: 'umd',
@@ -90,7 +83,6 @@ export default [{
   input,
   external,
   output: {
-    banner: banner(name, version),
     file: 'dist/scola.cjs.js',
     format: 'cjs',
     globals
