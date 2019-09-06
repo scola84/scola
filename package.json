@@ -15,8 +15,11 @@
     "build:dev": "npm run clean && rimraf node_modules/@scola && rollup -cmw",
     "build:prod": "npm run clean && rollup -c",
     "clean": "rimraf dist/ node_modules/ package-lock.json && npm install",
-    "format": "glob-run js-beautify -r 'src/**/*.{css,js}' && npx standard --fix",
-    "version": "npm run format && npm run build:prod && git add LICENSE"
+    "format": "glob-run js-beautify -r 'index.js' && npx standard --fix",
+    "git:pkg": "git add LICENSE package-lock.json package.json",
+    "git:src": "git add index.js",
+    "preversion": "npm run format && npm run git:src",
+    "version": "npm run build:prod && npm run git:pkg"
   },
   "devDependencies": {
     "glob-run": "^0.1.7",
