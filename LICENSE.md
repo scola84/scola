@@ -24,11 +24,11 @@ SOFTWARE.
 
 # Licenses of its dependencies
 
-## luxon@1.17.2 
+## luxon@1.17.2
 
 MIT
 
-## @scola/worker@3.4.4 
+## @scola/worker@3.5.0
 
 # License of this package
 
@@ -56,11 +56,11 @@ SOFTWARE.
 
 # Licenses of its dependencies
 
-## luxon@1.17.2 
+## luxon@1.17.2
 
 MIT
 
-## marked@0.7.0 
+## marked@0.7.0
 
 # License information
 
@@ -106,7 +106,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
-## d3-format@1.4.1 
+## d3-format@1.4.1
 
 Copyright 2010-2015 Mike Bostock
 All rights reserved.
@@ -136,7 +136,7 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## regenerator-runtime@0.13.3 
+## regenerator-runtime@0.13.3
 
 MIT License
 
@@ -160,7 +160,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## @babel/runtime@7.5.5 
+## @babel/runtime@7.6.0
 
 MIT License
 
@@ -185,7 +185,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## async@3.1.0 
+## async@3.1.0
 
 Copyright (c) 2010-2018 Caolan McMahon
 
@@ -207,7 +207,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## marked@0.7.0 
+## marked@0.7.0
 
 # License information
 
@@ -253,7 +253,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 This software is provided by the copyright holders and contributors “as is” and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
 
-## d3-format@1.4.1 
+## d3-format@1.4.1
 
 Copyright 2010-2015 Mike Bostock
 All rights reserved.
@@ -283,7 +283,7 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## regenerator-runtime@0.13.3 
+## regenerator-runtime@0.13.3
 
 MIT License
 
@@ -307,7 +307,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## @babel/runtime@7.5.5 
+## @babel/runtime@7.6.0
 
 MIT License
 
@@ -332,7 +332,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## async@3.1.0 
+## async@3.1.0
 
 Copyright (c) 2010-2018 Caolan McMahon
 
@@ -354,7 +354,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## lodash-es@4.17.15 
+## lodash-es@4.17.15
 
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
@@ -404,7 +404,7 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-## @scola/doc@1.0.13 
+## @scola/doc@1.0.14
 
 # License of this package
 
@@ -432,7 +432,7 @@ SOFTWARE.
 
 # Licenses of its dependencies
 
-## lodash-es@4.17.15 
+## lodash-es@4.17.15
 
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
@@ -482,7 +482,7 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-## @scola/dom@1.0.10 
+## @scola/dom@1.0.11
 
 # License of this package
 
@@ -510,7 +510,7 @@ SOFTWARE.
 
 # Licenses of its dependencies
 
-## lodash-es@4.17.15 
+## lodash-es@4.17.15
 
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
@@ -560,7 +560,7 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-## qs@6.8.0 
+## qs@6.8.0
 
 BSD 3-Clause License
 
@@ -592,7 +592,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## d3-selection@1.4.0 
+## d3-selection@1.4.0
 
 Copyright (c) 2010-2018, Michael Bostock
 All rights reserved.
@@ -621,7 +621,7 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## fastclick@1.0.6 
+## fastclick@1.0.6
 
 Copyright (c) 2014 The Financial Times Ltd.
 
@@ -646,7 +646,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-## dom-shims@0.1.4 
+## dom-shims@0.1.4
 
 Copyright (C) Nicolas Gallagher
 
@@ -668,7 +668,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## async@3.1.0 
+## async@3.1.0
 
 Copyright (c) 2010-2018 Caolan McMahon
 
@@ -690,7 +690,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## sprintf-js@1.1.2 
+## sprintf-js@1.1.2
 
 Copyright (c) 2007-present, Alexandru Mărășteanu <hello@alexei.ro>
 All rights reserved.
@@ -717,7 +717,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## element-resize-detector@1.1.15 
+## element-resize-detector@1.1.15
 
 The MIT License (MIT)
 
@@ -741,7 +741,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## batch-processor@1.0.0 
+## batch-processor@1.0.0
 
 The MIT License (MIT)
 
@@ -765,11 +765,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## luxon@1.17.2 
+## luxon@1.17.2
 
 MIT
 
-## iban@0.0.12 
+## iban@0.0.12
 
 The MIT License (MIT)
 
@@ -792,7 +792,7 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## libphonenumber-js@1.7.23 
+## libphonenumber-js@1.7.24
 
 (The MIT License)
 
@@ -817,7 +817,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## qs@6.8.0 
+## qs@6.8.0
 
 BSD 3-Clause License
 
@@ -849,7 +849,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## d3-selection@1.4.0 
+## d3-selection@1.4.0
 
 Copyright (c) 2010-2018, Michael Bostock
 All rights reserved.
@@ -878,7 +878,7 @@ OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
 NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
 EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## fastclick@1.0.6 
+## fastclick@1.0.6
 
 Copyright (c) 2014 The Financial Times Ltd.
 
@@ -903,7 +903,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-## dom-shims@0.1.4 
+## dom-shims@0.1.4
 
 Copyright (C) Nicolas Gallagher
 
@@ -925,7 +925,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## @scola/http@6.0.9 
+## @scola/http@6.0.10
 
 # License of this package
 
@@ -953,7 +953,7 @@ SOFTWARE.
 
 # Licenses of its dependencies
 
-## lodash-es@4.17.15 
+## lodash-es@4.17.15
 
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
@@ -1003,7 +1003,7 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-## qs@6.8.0 
+## qs@6.8.0
 
 BSD 3-Clause License
 
@@ -1035,7 +1035,7 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## base64-js@1.3.1 
+## base64-js@1.3.1
 
 The MIT License (MIT)
 
@@ -1059,7 +1059,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## ieee754@1.1.13 
+## ieee754@1.1.13
 
 Copyright 2008 Fair Oaks Labs, Inc.
 
@@ -1073,7 +1073,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## buffer@5.4.2 
+## buffer@5.4.2
 
 The MIT License (MIT)
 
@@ -1097,7 +1097,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## long@4.0.0 
+## long@4.0.0
 
 Apache License
                            Version 2.0, January 2004
@@ -1301,7 +1301,7 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-## base64-js@1.3.1 
+## base64-js@1.3.1
 
 The MIT License (MIT)
 
@@ -1325,7 +1325,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## ieee754@1.1.13 
+## ieee754@1.1.13
 
 Copyright 2008 Fair Oaks Labs, Inc.
 
@@ -1339,7 +1339,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## buffer@5.4.2 
+## buffer@5.4.2
 
 The MIT License (MIT)
 
@@ -1363,7 +1363,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-## long@4.0.0 
+## long@4.0.0
 
 Apache License
                            Version 2.0, January 2004
@@ -1567,7 +1567,7 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-## sprintf-js@1.1.2 
+## sprintf-js@1.1.2
 
 Copyright (c) 2007-present, Alexandru Mărășteanu <hello@alexei.ro>
 All rights reserved.
@@ -1594,7 +1594,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-## element-resize-detector@1.1.15 
+## element-resize-detector@1.1.15
 
 The MIT License (MIT)
 
@@ -1618,7 +1618,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## batch-processor@1.0.0 
+## batch-processor@1.0.0
 
 The MIT License (MIT)
 
@@ -1642,7 +1642,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## iban@0.0.12 
+## iban@0.0.12
 
 The MIT License (MIT)
 
@@ -1665,7 +1665,7 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## libphonenumber-js@1.7.23 
+## libphonenumber-js@1.7.24
 
 (The MIT License)
 
