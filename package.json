@@ -16,7 +16,7 @@
     "build:prod": "npm run clean && rollup -c",
     "clean": "rimraf dist/ node_modules/ package-lock.json && npm install",
     "format": "glob-run js-beautify -r 'index.js' && npx standard --fix",
-    "git:pkg": "git add LICENSE package-lock.json package.json",
+    "git:pkg": "git add CHANGELOG.md LICENSE.md package-lock.json package.json",
     "git:src": "git add index.js",
     "preversion": "npm run format && npm run git:src",
     "version": "npm run build:prod && npm run git:pkg"
@@ -25,14 +25,14 @@
     "glob-run": "^0.1.7",
     "js-beautify": "^1.10.2",
     "rimraf": "^3.0.0",
-    "rollup": "^1.20.3",
+    "rollup": "^1.21.2",
     "rollup-plugin-ignore": "^1.0.5",
     "standard": "^14.1.0"
   },
   "dependencies": {
-    "@scola/doc": "^1.0.12",
-    "@scola/dom": "^1.0.9",
-    "@scola/http": "^6.0.8",
-    "@scola/worker": "^3.4.3"
+    "@scola/doc": "^1.0.14",
+    "@scola/dom": "^1.0.11",
+    "@scola/http": "^6.0.10",
+    "@scola/worker": "^3.5.0"
   }
 }
